@@ -24,7 +24,7 @@ const Compiler = () => {
     setLoading(true);
     setOutput("");
     try {
-      const res = await axios.post("http://gameappbackend-i8zv.onrender.com/api/compiler/run", {
+      const res = await axios.post("https://gameappbackend-i8zv.onrender.com/api/compiler/run", {
         language,
         code,
         input,
